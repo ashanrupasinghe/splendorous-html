@@ -162,6 +162,7 @@ a.header-logo{
 }
 .latest-projects{
     margin-top: 60px;
+    margin-bottom: 50px;
 }
 .latest-projects img{
     width: 100%;
@@ -174,6 +175,7 @@ a.header-logo{
 .latest-projects .lt-project:hover{
     background-color: #7e5c88;
     color: #ffffff;
+    transition: all 0.5s ease-out;
 }
 .lt-project h5{
     font-weight: bold;
@@ -200,6 +202,46 @@ a.header-logo{
 .lt-about div:nth-child(2){
     padding: 0px 10px;
 }
+.lt-about div:nth-child(2) p:first-child{
+    font-weight: bold;
+}
+.lt-about div:nth-child(2) p:last-child{
+    color: #7e5c88;
+}
+
+
+.lt-blog{
+    font-size: 12px;
+	line-height: 12px;
+}
+.lt-blog h5{
+    font-weight: bold;
+    color:#7e5c88;
+}
+.lt-blog p.description{
+    line-height: 18px;
+}
+
+div.lt-about-out .lt-about {
+	font-size: 12px;
+	line-height: 5px;
+        border-bottom: 1px solid #d8d8d8;
+        //border-top: 1px solid #d8d8d8;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+div.lt-about-out .lt-about p.content {
+    line-height: 18px;
+}
+div.lt-about-out:last-child .lt-about{	
+        padding-top: 10px;
+        border: none;
+}
+
+.slidershadow.beforefooter,.slidershadow.beforecright{
+    margin-top: 60px;
+}
+
 
 .cright{
     margin-top: 15px;
