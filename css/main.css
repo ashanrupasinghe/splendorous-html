@@ -2,11 +2,17 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    height: 2000px;
+}
 header{
     background-color: #ffffff;
     height: 94px;
     //line-height: 94px;
     border-top: 6px solid #7e5c88; 
+    position: fixed;    
+    width: 100% !important;
+    z-index: 1;
 }
 
 ul{
@@ -119,4 +125,8 @@ a.header-logo{
 }
 .text-content{
     padding: 65px;
+}
+.slider{
+    //margin-top: 50px;
+    padding-top: 140px;
 }
