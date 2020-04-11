@@ -77,6 +77,32 @@ a.header-logo{
     margin-top: 30px;
 }
 /*slider*/
+.carousel-control{
+    opacity: 1;
+}
+#prev,#next{
+    background: none !important;
+}
+#prev .glyphicon-chevron-left, #next .glyphicon-chevron-right{
+    width: auto;
+    height: auto;
+}
+#prev .glyphicon-chevron-left::before {
+    content: "";
+    background-image: url(../img/slider-arrow-left.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 18px;
+}
+#next .glyphicon-chevron-right::before {
+    content: "";
+    background-image: url(../img/slider-arrow-right.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 18px;
+}
 .slider-carousle .slider-image{
     border-radius: 50%;
     border: 25px solid #7e5c88;
@@ -102,29 +128,29 @@ a.header-logo{
     margin: 0 0 25px;
 }
 .text-content a {
-	font-size: 13px;
-	font-family: georgia;
-	background-color: #7e5c88;
-	color: #ffffff;
-	border-radius: 50px;
-	padding: 12px 15px;
-        text-decoration: none;
-        border: 1px solid #7e5c88;
+    font-size: 13px;
+    font-family: georgia;
+    background-color: #7e5c88;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 12px 15px;
+    text-decoration: none;
+    border: 1px solid #7e5c88;
 }
 .text-content a:hover {	
     color: #7e5c88;
     border: 1px solid #7e5c88;
     background-color: #ffffff;
-    
+
 }
 .slid-parent{
-      display: flex; /* equal height of the children */
+    display: flex; /* equal height of the children */
 }
 .text-content,.image-content{
     //display: table-cell;
     //vertical-align: middle;
     flex: 1;
-    
+
 }
 .text-content{
     padding: 65px;
@@ -142,4 +168,5 @@ a.header-logo{
     -webkit-filter: blur(6px);
     -webkit-transform: scale(1, 0.2);
 }
-.secondary{}//can use for sticky menu styles|| $(window).scrollTop() >= 60 add this class to header
+//.secondary{}//can use for sticky menu styles|| $(window).scrollTop() >= 60 add this class to header
+

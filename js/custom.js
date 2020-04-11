@@ -4,6 +4,8 @@ jQuery(Document).ready(function() {
         responsive: true,
         width: "100%" ,
         circular: true,
+        prev:"#prev",
+        next:"#next",
         scroll: {
             items: 1,
             duration: 500,
