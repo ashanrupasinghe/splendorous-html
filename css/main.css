@@ -28,20 +28,21 @@ header nav ul li a{
 }
 
 header nav ul li.actvie{
-    background-color: #7e5c88;     
+    background-color: #7e5c88; 
+    border-left: 1px solid #b592bf;    
+    border-right: 1px solid #b592bf;
 }
 header nav ul li.actvie a{    
     color:#ffffff;
 }
 header nav ul li:hover{
-    background-color: #7e5c88;
-    border-left: 1px solid #b592bf;    
-    margin-right: -1px;
+    background-color: #7e5c88;    
+    //margin-right: -1px;
 }
-header nav ul li:first-child:hover{
-    background-color: #7e5c88;
-    border-left: none;    
-    margin-right: 0px;
+header nav ul li.actvie:hover{
+    //background-color: #7e5c88;
+    //border-left: none;    
+    //margin-right: 0px;
 }
 header nav ul li:hover a{
     color:#ffffff;
