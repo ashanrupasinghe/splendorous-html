@@ -2,10 +2,10 @@ jQuery(Document).ready(function() {
     "use strict"
     $("#slider-carousle").carouFredSel({
         responsive: true,
-        width: "100%" ,
+        width: "100%",
         circular: true,
-        prev:"#prev",
-        next:"#next",
+        prev: "#prev",
+        next: "#next",
         scroll: {
             items: 1,
             duration: 500,
@@ -25,17 +25,17 @@ jQuery(Document).ready(function() {
         }
     }
     );
-    
-    $(window).scroll(function (){
+
+    $(window).scroll(function() {
         var top = $(window).scrollTop();
-        if(top >= 60){
+        if (top >= 60) {
             $("header").addClass("secondary");
-        }else if($("header").hasClass("secondary")){
+        } else if ($("header").hasClass("secondary")) {
             $("header").removeClass("secondary");
         }
     });
-    
+
     $("#menu").slicknav({
-        label:'',
+        label: '',
     });
 });
