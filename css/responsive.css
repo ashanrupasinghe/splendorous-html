@@ -1,5 +1,11 @@
 /*mobile nav menu*/
 .slicknav_menu{display: none;}
+@media screen and (min-width:1024px){
+.slider-carousle .slider-image {	
+	width: 380px;
+}
+}
+
 @media screen and (min-width:415px){
 .slid-parent{
     display: flex; /* equal height of the children */
@@ -60,6 +66,39 @@
 
 }
 
+@media screen and (max-width:769px){
+.header-logo {	
+	padding: 0 0 0px 25px;
+}
+.slider-carousle .slider-image{
+    border-radius: 50%;
+    border: 25px solid #7e5c88;
+    width: 100%;
+}
+.text-content {
+	padding: 20px 20px 20px 45px;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+	position: absolute;
+	top: 25%;
+	z-index: 5;
+	display: inline-block;
+	margin-top: -10px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	left: 25%;
+	margin-left: -10px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	right: 25%;
+	margin-right: -10px;
+}
+
+}
 
 @media screen and (max-width:415px){
     .slider-carousle .slider-image {
@@ -86,8 +125,17 @@
 
 }
 
+@media screen and (min-width:769px){
+.text-content{
+    padding: 65px;
+}
+}
+
 @media screen and (max-width:815px){
 .header-logo {	
-	margin-left: 3%;
+	//margin-left: 3%;
 }
 }
+
+
+
