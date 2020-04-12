@@ -1,5 +1,16 @@
 /*mobile nav menu*/
 .slicknav_menu{display: none;}
+@media screen and (min-width:415px){
+.slid-parent{
+    display: flex; /* equal height of the children */
+}
+.text-content,.image-content{
+    //display: table-cell;
+    //vertical-align: middle;
+    flex: 1;
+
+}
+}
 @media screen and (max-width:992px){
     #menu{
         display: none;
@@ -45,9 +56,38 @@
         border-radius: 0px;
         transition: all 0.5s ease-out;
     }
+    
 
+}
+
+
+@media screen and (max-width:415px){
+    .slider-carousle .slider-image {
+	border-radius: 50%;
+	border: 10px solid #7e5c88;
+	width: 50%;
+}
+.text-content {
+	padding-bottom: 25px;
+        padding-top: 0px;
+}
+.text-content h2 {
+    margin-top:5px;
+    font-size: 2.5em;
+    width: auto;
+}
+.text-content{
+    float: none;
+    text-align: center;
+}
 }
 
 @media screen and (max-width:330px){
 
+}
+
+@media screen and (max-width:815px){
+.header-logo {	
+	margin-left: 3%;
+}
 }
